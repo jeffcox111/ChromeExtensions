@@ -1,0 +1,9 @@
+ {
+    "name": "HTMLAstroids",
+    "version": "1.0",
+    "description": "Lets you blow up some divs!",
+    "permissions": [
+      "activeTab"
+    ],
+    "manifest_version": 2
+  }
