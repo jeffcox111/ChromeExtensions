@@ -1,0 +1,15 @@
+ {
+    "name": "NoRedditPromo",
+    "version": "1.0",
+    "description": "Blocks Promoted Links in Reddit",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["https://*.reddit.com/*"], 
+          "css" : ["customcss.css"]
+        }
+    ],
+    "manifest_version": 2
+  }
