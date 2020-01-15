@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Launch Chrome apps using a fancy popup. Reorder them as you like."
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Apps Launcher"
+   }
+}
