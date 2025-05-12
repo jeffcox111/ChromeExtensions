@@ -1,21 +1,22 @@
- {
-    "name": "NoRedditPromo",
-    "version": "1.0",
-    "description": "Blocks Promoted Links in Reddit",
-    "permissions": [
-      "activeTab"
-    ],
-    "content_scripts": [
-        {
-          "matches": ["https://*.reddit.com/*"], 
-          "css" : ["customcss.css"]
-        }
-    ],
-    "browser_action": {
-      "default_icon": "reddit.png" 
-    },
-    "icons": { "16": "reddit.png",
-      "48": "reddit.png",
-     "128": "reddit.png" },
-    "manifest_version": 2
-  }
+{
+  "name": "NoRedditPromo",
+  "version": "1.0",
+  "description": "Blocks Promoted Links in Reddit",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.reddit.com/*"],
+      "css": ["customcss.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_icon": "reddit.png"
+  },
+  "icons": {
+    "16": "reddit.png",
+    "48": "reddit.png",
+    "128": "reddit.png"
+  },
+  "manifest_version": 3
+}
